@@ -4,6 +4,14 @@ namespace Calculator
 {
     public class MathCalculator 
     {
+        public int Param1;
+        public int Param2;
+        public MathCalculator(int _param1, int _param2) 
+        {
+            Param1 = _param1;
+            Param2 = _param2;
+        }
+
         public static int Add(int param1, int param2) 
         {
             return param1 + param2;
